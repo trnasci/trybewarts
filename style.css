@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(50, 167, 145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+​
+.trybewarts-login {
+    display: flex;
+    border: 2px solid black;
+    align-content: space-between;
+}
+​
+footer {
+    text-align: center;
+    height: 1.7em;
+    padding-top: 0.8em;
+    margin-top: 1em;
+    background-color: green;
+    color: white;
+}
+​
+.trybewarts-header-logo {
+    width: 4em;
+}
+​
+#trybewarts-header-title {
+    color: white;
+}
