@@ -1,57 +1,63 @@
 header {
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-​
+
 .trybewarts-login {
-    display: flex;
-    border: 2px solid black;
-    align-content: space-between;
+  display: flex;
+  border: 2px solid black;
+  align-content: space-between;
 }
+
 main {
-    display: flex;
+  display: flex;
 }
+
 #evaluation-form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 675px;
-    align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  width: 675px;
+  align-items: center;
 }
+
 #trybewarts-forms-logo {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
 }
+
 #label-family {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
+
 #label-content {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
+
 #option-1 {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
+
 footer {
-    text-align: center;
-    height: 1.7em;
-    padding-top: 0.8em;
-    margin-top: 1em;
-    background-color: green;
-    color: white;
+  text-align: center;
+  height: 1.7em;
+  padding-top: 0.8em;
+  margin-top: 1em;
+  background-color: green;
+  color: white;
 }
-​
+
 .trybewarts-header-logo {
-    width: 4em;
+  width: 4em;
 }
-​
+
 #trybewarts-header-title {
-    color: white;
+  color: white;
 }
