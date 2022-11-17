@@ -12,3 +12,18 @@ function validarForm(event) {
 }
 
 formHeader.addEventListener('submit', validarForm);
+
+function submitBtn() {
+  const buttonSub = document.getElementById('submit-btn');
+  const agree = document.getElementById('agreement');
+  agree.checked = false;
+  if (agree.checked = true) {
+    buttonSub.disabled = false;
+  } else {
+    buttonSub.disabled = true;
+  }
+}
+
+window.onload = function open() {
+  submitBtn();
+}

@@ -45,12 +45,11 @@
                 </div>
             </div>
             <div id="option-1">
-                <label for="family" id="label-family">
-                    Qual sua família?
+                <label id="label-family">Qual sua família?</label>                    
                     <input type="radio" name="family" id="family" value="Frontend">Família Frontend
                     <input type="radio" name="family" id="family" value="Backend">Família Backend
                     <input type="radio" name="family" id="family" value="FullStack">Família FullStack
-                </label>
+                
                 <label for="check" id="label-content">Qual conteúdo você está com mais vontade de aprender?
                     <input type="checkbox" class="subject" name="HoFs" id="check" value="HoFs">HoFs
                     <input type="checkbox" class="subject" name="Jest" id="check" value="Jest">Jest
@@ -76,12 +75,12 @@
                 <textarea name="textarea" id="textarea" maxlength="500"></textarea>
             </label>
             <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
-                <input type="checkbox" name="agreement" id="agreement">
+                <input type="checkbox" name="agreement" id="agreement" checked>
 
 
             </label>
             <label for="submit-btn">
-                <button type="submit" id="submit-btn" name="Enviar">Enviar</button>
+                <button type="submit" id="submit-btn" name="Enviar" disabled>Enviar</button>
             </label>
         </form>
 
